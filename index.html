@@ -18,23 +18,27 @@
 
 </head>
 
+<!-- Everything Displayed in Your Website --> 
 <body>
 
-	<!-- This is your navigation bar, which is found at the top of the web page. -->	
-	<nav class="navbar navbar-expand-lg navbar-light bg-light">
+	<!-- This is your navigation bar, which is found at the top of the web page and contains links to other webpages. -->	
+	<nav class="navbar navbar-expand-lg navbar-light bg-light"> 
   		<div class="container-fluid">
     			<a class="navbar-brand" href="/">Your Website Name</a>
 
+				<!-- This code automatically minimizes and opens your navigation bar. -->
     			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       				<span class="navbar-toggler-icon"></span>
    			 </button>
+
+			<!-- This is where you include the links to your other webpages. -->
    			 <div class="collapse navbar-collapse" id="navbarSupportedContent">
       				<ul class="navbar-nav me-auto mb-2 mb-lg-0">
         				<li class="nav-item">
-          					<a class="nav-link active" aria-current="page" href="#"> Link 1 </a>
+          					<a class="nav-link active" aria-current="page" href="/"> Link 1 </a>
         				</li>
         				<li class="nav-item">
-          					<a class="nav-link" href="#"> Link 2 </a>
+          					<a class="nav-link" href="/"> Link 2 </a>
         				</li>
       				</ul>
     			</div>
@@ -46,6 +50,23 @@
 	<!-- This is a container that automatically pushes your content away from the sides. -->
 	<div class="container">
 		<h1> This is an example website! </h1>
+
+		<!-- This is an example of a two-column layout, where one column in the main column and the smaller one is the side bar. -->
+		<!-- The following code is responsive, such that if the screen is smaller than "large", then the two columns will stack on top of each other. -->
+		<div class="row">
+				<div class="col-12 col-lg-8"> 
+					<!-- These are placeholder paragraphs in the main column. -->
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam hendrerit lectus nec lacus gravida, non faucibus ipsum malesuada. Maecenas vel ipsum a felis interdum imperdiet. Mauris non neque urna. Nunc augue sem, vehicula vel tortor sed, elementum rhoncus justo. Maecenas nulla nisl, consequat et elementum quis, sagittis non mi. Duis in sollicitudin diam. In auctor porta lectus, nec tincidunt dolor tempor ut.</p>
+					<p>Aenean lobortis dui in felis iaculis porttitor. Cras in est pulvinar, rhoncus ipsum quis, scelerisque arcu. Etiam nec sem finibus metus auctor elementum pellentesque et risus. Vivamus ultricies diam et nunc rutrum accumsan. Suspendisse finibus ac velit vitae scelerisque. Mauris in mi non lectus viverra venenatis. In leo nibh, finibus non diam eu, dignissim luctus tortor. Duis sodales ac tellus non rutrum. Phasellus mi mi, sodales vitae rutrum consequat, vestibulum sit amet nibh. Suspendisse viverra vestibulum augue id aliquet. Sed facilisis tellus magna, eu tempus nibh volutpat quis. Sed vitae mi sapien. Nam eleifend sem vitae orci fringilla finibus. Proin porta elit eu nibh vehicula, sit amet finibus dui interdum. Curabitur nec tortor ut velit lacinia faucibus. In id quam fermentum, finibus dui ut, suscipit erat.</p>
+					<p>Vestibulum pretium nibh id arcu feugiat commodo. Aliquam tempus eleifend ligula id scelerisque. Donec sed cursus mauris. Aenean id pulvinar odio, nec fermentum magna. Duis viverra nisl vitae enim gravida pellentesque. Nunc eleifend, ipsum id auctor finibus, justo velit posuere augue, placerat vulputate mi eros sed lacus. Sed mauris nisl, varius ut pharetra in, euismod eu tellus. Sed pharetra justo eu vehicula laoreet. Duis condimentum felis et leo ullamcorper tincidunt.</p>
+				</div>
+				<div class="col-12 col-lg-4">
+					<!-- These are placeholder paragraphs in the side bar.-->
+					<p>Suspendisse fringilla commodo est, eget malesuada nisi dapibus sit amet. Donec ut odio justo. Donec mauris urna, aliquet nec luctus sed, lobortis ut felis. Donec non odio risus. Donec pellentesque vestibulum turpis vel hendrerit. Nulla at porta mauris. Duis non nibh a libero fermentum vehicula. Sed vitae accumsan velit. Suspendisse vitae turpis elit. Maecenas et purus lacus. Sed quis quam nibh. Fusce mollis mauris sit amet facilisis dignissim. Donec gravida venenatis augue, sed lacinia lorem elementum in.</p>
+					<p>Duis semper erat et nisl efficitur, sed rutrum libero mollis. Donec nec mattis enim. Cras mollis tellus libero, vitae sodales lorem fringilla non. Aenean mauris risus, dictum eget neque in, vehicula tincidunt augue. Nunc blandit ullamcorper lorem. Aliquam laoreet suscipit laoreet. Aenean ex ligula, varius vitae porttitor a, sodales nec nibh. Integer at venenatis dolor.</p>
+				</div>
+		</div>
+
 	</div>
 
 	
