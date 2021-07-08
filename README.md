@@ -9,5 +9,5 @@ There are lots of example files in this repo, so feel free to change/remove them
 
 ## Useful Links to Get Started
 - Website Preview: https://kjuego.github.io/MLH-Bootstrap-Starter-Kit/
-- Bootstrap's Documentation: on https://getbootstrap.com/docs/5.0/getting-started/introduction/
+- Bootstrap's Documentation: https://getbootstrap.com/docs/5.0/getting-started/introduction/
 - Intro to HTML: https://www.w3schools.com/html/
